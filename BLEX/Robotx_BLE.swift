@@ -20,7 +20,7 @@ class Robotx_BLE: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate {
     let timerScanInterval:TimeInterval!
     var keepScanning:Bool
     var deviceName:String!
-    var deviceList:[String]!
+    var deviceList:[String] = ["Test_device"]
 
     
     // MAKR: INIT
